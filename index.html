@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-  <title>蔡育展 - 个人主页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔡育展 - 个人主页</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 10px 0;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-  <h1>蔡育展</h1>
-  <p>邮箱: yuzhancai@gmail.com</p>
-  <p>研究兴趣: 大模型, 生成模型, 3DGS/NeRF, 具身智能</p>
+    <div class="container">
+        <header>
+            <h1>蔡育展</h1>
+            <p class="subtitle">研究生 / 计算机视觉</p>
+        </header>
+
+        <div class="contact-info">
+            <h2>联系方式</h2>
+            <p>📧 邮箱: yuzhancai@gmail.com</p>
+            <p>📍 地点: 北京, 中国</p>
+        </div>
+
+        <div class="section">
+            <h2>研究兴趣</h2>
+            <p>大模型, 生成模型, 3DGS/NeRF, 具身智能</p>
+        </div>
+
+        <footer>
+            <p>© 2024 蔡育展 | 最后更新: 2024年5月</p>
+        </footer>
+    </div>
 </body>
 </html>
